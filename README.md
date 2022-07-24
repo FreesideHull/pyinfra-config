@@ -59,6 +59,12 @@ Host fs-desktop-04
         PreferredAuthentications        publickey,password,keyboard-interactive
 ```
 
+### To Run
+
+To run your commands: `pyinfra hosts.py commands.py`
+or
+`pyinfra target-name exec -- command` where command is a valid terminal command on the target e.g. `ls`
+
 ## License
 
 pyinfra-config is released under the MIT. The full license text is included in the LICENSE file in this repository. Tldr legal have a [great summary](https://tldrlegal.com/license/mit-license) of the license if you're interested.
