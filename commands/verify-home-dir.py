@@ -1,6 +1,6 @@
 from pyinfra.operations import server, files
 
-username = input("enter the username of the account you wish to verify: ")
+username = input("enter the username of the account you wish to verify: ")  #explains itself, fetches the user
 
 server.user(
     name="Validate user", # or create them if they somehow don't exist
