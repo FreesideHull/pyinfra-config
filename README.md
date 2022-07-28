@@ -64,7 +64,8 @@ Host fs-desktop-04
 To run your commands: `pyinfra hosts.py commands.py`
 or
 `pyinfra target-name exec -- command` where command is a valid terminal command on the target e.g. `ls`
-
+or
+`pyinfra target-name pyinfra-command`
 ## Snippets
 
 inside this repo you will find some pyinfra snippets that you may find useful. Such as patching a system or verifying a user exists and they own their home directory.  
