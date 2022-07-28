@@ -65,6 +65,10 @@ To run your commands: `pyinfra hosts.py commands.py`
 or
 `pyinfra target-name exec -- command` where command is a valid terminal command on the target e.g. `ls`
 
+## Snippets
+
+inside this repo you will find some pyinfra snippets that you may find useful. Such as patching a system or verifying a user exists and they own their home directory.  
+
 ## License
 
 pyinfra-config is released under the MIT. The full license text is included in the LICENSE file in this repository. Tldr legal have a [great summary](https://tldrlegal.com/license/mit-license) of the license if you're interested.
