@@ -6,7 +6,6 @@ server.user(
     name="Validate user", # or create them if they somehow don't exist
     user=username,
     home="/home/"+username,
-    _sudo=True,
 )
 
 files.directory(
@@ -14,5 +13,4 @@ files.directory(
     path="/home/"+username,
     user=username,
     group=username,
-    _sudo=True,
 )
