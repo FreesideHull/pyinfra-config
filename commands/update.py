@@ -1,5 +1,7 @@
 from pyinfra.operations import dnf, server
 
+
+# there is a way to define your own operations but i'm yet to look at that yet
 def dfh():
     server.shell(
     name="check disk space,
