@@ -11,5 +11,5 @@ class raw(FactBase):
     def process(self, output):
         return '\n'.join(output)
 
-dfh_out = host.get_fact(raw, command='df -h')
+dfh_out = host.get_fact(raw, command="df -h |grep -i 'dev/mapper'")
 print(dfh_out)
