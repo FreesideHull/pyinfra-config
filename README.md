@@ -61,7 +61,7 @@ Host fs-desktop-04
 
 ### To Run
 
-To run your commands: `pyinfra hosts.py commands.py`
+To run your commands: `pyinfra hosts/choose-your-group.py commands/choose-your-script.py` (hosts.py is all fs machines)
 or
 `pyinfra target-name exec -- command` where command is a valid terminal command on the target e.g. `ls`
 or
@@ -69,6 +69,14 @@ or
 ## Snippets
 
 inside this repo you will find some pyinfra snippets that you may find useful. Such as patching a system or verifying a user exists and they own their home directory.  
+
+## Changelog
+- commit your changes
+- generate the changelog with `./changelog` or `bash /path/to/changelog` (make sure it is executable with `chmod +x`)
+- `git add . && git commit --amend --no-edit ` to amend your changes before pushing
+- See the [Changelog](/CHANGELOG)
+  
+
 
 ## License
 
