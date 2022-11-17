@@ -1,0 +1,162 @@
+Commit: 5e3f102
+Author: Rowan Clark
+Thu Nov 17 21:29:30 2022
+Commit subject: 
+chore: add changelog script
+
+Commit: 14bed4c
+Author: Rowan Clark
+Thu Nov 17 21:24:14 2022
+Commit subject: 
+chore: add log vacuum#
+
+Commit: a67550e
+Author: Rowan Clark
+Thu Nov 17 21:00:57 2022
+Commit subject: 
+chore: split hosts into their own groups
+
+Commit: f7ef60b
+Author: Rowan Clark
+Thu Nov 17 20:14:05 2022
+Commit subject: 
+chore: edit dfh fact to grep for main storage, shorter output
+
+Commit: ea8b360
+Author: Rowan Clark
+Mon Nov 14 21:31:25 2022
+Commit subject: 
+feat: facts work now, can get output from commands!
+
+Commit: 530dd98
+Author: Rowan Clark
+Mon Nov 14 21:22:40 2022
+Commit subject: 
+chore: note on facts
+
+Commit: 43ea9c1
+Author: Rowan Clark
+Mon Nov 14 17:23:01 2022
+Commit subject: 
+fix: fix dfh script
+
+Commit: 3e699f7
+Author: Rowan Clark
+Mon Nov 14 17:21:28 2022
+Commit subject: 
+fix: docker 1 hostname
+
+Commit: c3fea04
+Author: Rowan Clark
+Sat Oct 29 01:02:46 2022
+Commit subject: 
+docs: add comment to previous function
+
+Commit: 921cead
+Author: Rowan Clark
+Sat Oct 29 00:57:58 2022
+Commit subject: 
+refactor: put df -h in its own method
+
+Commit: fdda060
+Author: Rowan Clark
+Sat Oct 29 00:48:53 2022
+Commit subject: 
+feat: df -h to update script
+
+Commit: 249b82d
+Author: Rowan Clark
+Sat Oct 29 00:30:31 2022
+Commit subject: 
+chore: tweak reboot reconnect delay
+
+Commit: 65b9d15
+Author: Rowan Clark
+Wed Oct 26 14:13:11 2022
+Commit subject: 
+feat: remove sudo from  commands as we have to use root because ipa doesnt like pyinfra
+
+Commit: a3f1f5b
+Author: Matt Clark
+Thu Jul 28 22:42:54 2022
+Commit subject: 
+add docker purge snippet
+
+Commit: e47b533
+Author: Matt Clark
+Thu Jul 28 20:40:54 2022
+Commit subject: 
+more ways of execting commands to readme
+
+Commit: 5cbb465
+Author: Matt Clark
+Thu Jul 28 20:37:35 2022
+Commit subject: 
+quick note on username input
+
+Commit: bb13208
+Author: Matt Clark
+Thu Jul 28 20:36:25 2022
+Commit subject: 
+info on rebooting
+
+Commit: 1d132e3
+Author: Matt Clark
+Thu Jul 28 20:32:18 2022
+Commit subject: 
+add note in update about package managers and pyinfra
+
+Commit: e10ace8
+Author: Matt Clark
+Thu Jul 28 20:27:47 2022
+Commit subject: 
+add snippets note to readme
+
+Commit: 222f758
+Author: Matt Clark
+Thu Jul 28 20:23:12 2022
+Commit subject: 
+add verify home dir snippet
+
+Commit: e9adb26
+Author: Matt Clark
+Thu Jul 28 10:07:01 2022
+Commit subject: 
+move files to respective folders, add an example deploy file
+
+Commit: 409e578
+Author: Matt Clark
+Sun Jul 24 14:50:41 2022
+Commit subject: 
+update license
+
+Commit: 8ff0042
+Author: Matt Clark
+Sun Jul 24 14:49:23 2022
+Commit subject: 
+how to run
+
+Commit: c1d927e
+Author: Matt Clark
+Sun Jul 24 14:44:43 2022
+Commit subject: 
+explain commands.py
+
+Commit: b555972
+Author: Matt Clark
+Sun Jul 24 14:30:31 2022
+Commit subject: 
+add sys requirements, getting started and license to readme
+
+Commit: e99b35e
+Author: Matt Clark
+Sun Jul 24 14:19:43 2022
+Commit subject: 
+init hosts and commands files
+
+Commit: 9bf110f
+Author: GitHub
+Sun Jul 24 14:14:33 2022
+Commit subject: 
+Initial commit
+
