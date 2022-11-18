@@ -1,3 +1,4 @@
+from pyinfra.api import FactBase
 from pyinfra.operations import server
 from pyinfra import host
 class raw(FactBase):
